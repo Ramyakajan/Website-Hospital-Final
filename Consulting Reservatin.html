@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- custom css file link  -->
+     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="./css/consulting and reservatin.css">
+</head>
+<body>
+    <body>
+        
+         <!-- header navbar section start  -->
+         <nav>
+            <input id="nav-toggle" type="checkbox">
+            <div class="logo"><strong>FamilyCare</strong></div>
+            <ul class="links">
+              <li><a href="./Home.html">Home</a></li>
+              <li><a href="./About.html">About</a></li>
+              <li><a href="./Doctor.html">Doctors</a></li>
+              <li><a href="./Consulting Reservatin.html">Consulting Reservatin</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+              <li><a href="./Pharmacy.html">Pharmacy</a></li>
+              <li><a href="./Service.html">Services</a></li>
+            </ul>
+            <label for="nav-toggle" class="icon-burger">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </label>
+          </nav>
+         <!-- header navbar section end  -->
+
+    
+        <main>
+            <section class="reservation-form1">
+                <h2>Book Your Consultation</h2>
+                <form action="/submit-reservation" method="post">
+                    <label for="First name">First Name:</label>
+                    <input type="text" id="First name" name="First name" required>
+                    <label for="Last name">Last Name:</label>
+                    <input type="text" id="Last name" name="Last name" required>
+    
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+    
+                    <label for="specialist">Choose Specialist:</label>
+                    <select id="specialist" name="specialist" required>
+                        <option value="">Select Specialist</option>
+                        <option value="dr_smith">Dr. Aqeel Farook</option>
+                        <option value="dr_jones">Dr. Thivyakajan</option>
+                        <option value="dr_taylor">Dr. Mikaya Spencer Emma</option>
+                        <option value="dr_taylor">Dr. Umar Nazeem</option>
+                        <option value="dr_taylor">Dr. Nasath Nisthar</option>
+                        <option value="dr_taylor">Dr. Damsaara</option>
+                        <option value="dr_taylor">Dr. Mohemed Afrih</option>
+                        <option value="dr_taylor">Dr. Ranjitha</option>
+                        <option value="dr_taylor">Dr. Gnanasekaran</option>
+                        <option value="dr_taylor">Dr. Piraveenakajan</option>
+                        <option value="dr_taylor">Dr. Sivapranath</option>
+                        <option value="dr_taylor">Dr. Naveenshan</option>
+                        <option value="dr_taylor">Dr. Laxan</option>
+                        <option value="dr_taylor">Dr. Harshihan</option>
+                        <option value="dr_taylor">Dr. Aamina</option>
+                        <option value="dr_taylor">Dr. Ladislaws</option>
+                        <option value="dr_taylor">Dr. Nanthujan</option>
+                        <option value="dr_taylor">Dr. Partheeban</option>
+                        <option value="dr_taylor">Dr. Kithyon</option>
+                        <option value="dr_taylor">Dr. Kukan</option>
+                    </select>
+    
+                    <label for="date">Preferred Date:</label>
+                    <input type="date" id="date" name="date" required>
+    
+                    <label for="time">Preferred Time:</label>
+                    <input type="time" id="time" name="time" required>
+    
+                    <label for="comments">Additional Comments:</label>
+                    <textarea id="comments" name="comments"></textarea>
+                    <button type="submit">Book Appointment</button>
+                </form>
+            </section>
+    
+            <section class="specialists">
+                <h2>Meet Our Specialists</h2>
+                <div class="specialist">
+                    <h3>Dr. Aqeel Farook</h3>
+                    <p>Expert in cardiology with over 20 years of experience.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr. Thivyakajan</h3>
+                    <p>Specialist in Physio with a focus on advanced treatments.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr. Mikaya Spencer Emma</h3>
+                    <p>They frequently work with other healthcare professionals, including nurses, specialists, and therapists, to ensure comprehensive care for their young patients.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr. Umar Nazeem</h3>
+                    <p>Renowned oncologist with expertise in personalized care.</p>
+                </div>    
+                <div class="specialist">
+                    <h3>Dr. Nasath Nisthar</h3>
+                    <p>Neurosurgery requires high precision and meticulous attention to detail due to the complex nature of the nervous system.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr.Damsaara</h3>
+                    <p>Effective communication skills and empathy are crucial for understanding patients' concerns, addressing their needs, and providing a positive experience.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr.Mohemed Afrih</h3>
+                    <p>Effective communication skills are essential for explaining procedures, addressing patient concerns, and providing reassurance.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr.Ranjitha</h3>
+                    <p>Allergy and immunology specialists expertly diagnose and treat allergic and immune disorders.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr.Gnanasekaran</h3>
+                    <p>Allergy and immunology specialists offer expert counseling on managing and treating allergies and immune system conditions.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr.Piraveenakajan</h3>
+                    <p>Allergy and immunology specialists may have experience in diabetic care, particularly in managing diabetes-related complications and interactions with immune disorders.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr.Sivapranath</h3>
+                    <p>Eye surgeons have extensive experience in performing advanced procedures to treat a wide range of vision and eye health issues.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr.Naveenshan</h3>
+                    <p>Gastroenterologists have specialized experience in diagnosing and treating disorders of the digestive system, including the stomach, intestines, and liver.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr.Laxan</h3>
+                    <p>Hair transplant specialists have extensive experience in performing procedures to restore hair by relocating follicles from donor areas to thinning or balding regions.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr.Harshihan</h3>
+                    <p>Hepatobiliary surgeons have specialized experience in performing complex surgeries related to the liver, bile ducts, and gallbladder, including treatments for liver diseases and cancers.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr.Aamina</h3>
+                    <p>Medical nutritionists have extensive experience in creating personalized nutrition plans to manage medical conditions and promote overall health.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr.Ladislaws</h3>
+                    <p>Microbiologists have extensive experience in studying microorganisms, diagnosing infections, and researching microbial roles in health and disease.</p>
+                </div>
+
+                <div class="specialist">
+                    <h3>Dr.Nanthujan</h3>
+                    <p>Oncological surgeons have specialized experience in performing complex surgeries to remove tumors and treat various types of cancer.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr.Partheeban</h3>
+                    <p>Oncologists have extensive experience in diagnosing, treating, and managing cancer through various therapies, including chemotherapy, radiation, and targeted treatments.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr.Kithiyon</h3>
+                    <p>Psychiatrists have extensive experience in diagnosing and treating mental health disorders through a combination of psychotherapy, medication, and comprehensive patient care.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr.Kukan</h3>
+                    <p>Psychologists have extensive experience in assessing, diagnosing, and providing therapy for mental health and emotional issues using various evidence-based techniques.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr.Nivathan</h3>
+                    <p>Thoracic surgeons have extensive experience in performing complex surgeries on the chest, including the lungs, esophagus, and other thoracic organs.</p>
+                </div>
+                <div class="specialist">
+                    <h3>Dr.Jathirya</h3>
+                    <p>Urological surgeons have extensive experience in diagnosing and performing surgeries for conditions affecting the urinary tract and male reproductive organs.</p>
+                </div>
+            </section>
+        </main>
+</ul>  
+</body>
+</html>
